@@ -382,7 +382,7 @@ public class HighlightContextBuilderTests extends OpenSearchTestCase {
 
         HighlightContext ctx = builder.build(config, response, 0L);
         assertEquals(1, ctx.size());
-        assertEquals("alpha beta gamma", ctx.getRequests().get(0).getContext());
+        assertEquals("alpha\n\nbeta\n\ngamma", ctx.getRequests().get(0).getContext());
     }
 
     public void testListSourceValueWithNullsAreSkipped() {
@@ -402,7 +402,7 @@ public class HighlightContextBuilderTests extends OpenSearchTestCase {
 
         HighlightContext ctx = builder.build(config, response, 0L);
         assertEquals(1, ctx.size());
-        assertEquals("alpha gamma", ctx.getRequests().get(0).getContext());
+        assertEquals("alpha\n\ngamma", ctx.getRequests().get(0).getContext());
     }
 
     public void testNonStringNonListSourceFallsBackToToString() {
