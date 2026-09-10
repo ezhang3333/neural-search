@@ -1,0 +1,43 @@
+src/test/java/org/opensearch/neuralsearch/highlight/utils/HighlightExtractorUtilsTests.java
+  s_0442ae8ad97447::t_4a9be302c189b4 58,65
+  s_0442ae8ad97447::t_55dbbe1d5787a1 87-97
+src/main/java/org/opensearch/neuralsearch/highlight/batch/config/HighlightContextBuilder.java
+  s_0442ae8ad97447::t_a05b9cbc635ae2 144-146,158-161
+  s_0442ae8ad97447::t_7962d09351fd27 15
+src/main/java/org/opensearch/neuralsearch/highlight/SemanticHighlighter.java
+  s_0442ae8ad97447::t_0deb8002e05737 85-86,89,102-120,122,125-127,136-138,140
+src/test/java/org/opensearch/neuralsearch/highlight/utils/HighlightValueUtilsTests.java
+  s_0442ae8ad97447::t_3b3346c75daf4e 1-75
+src/main/java/org/opensearch/neuralsearch/highlight/utils/HighlightExtractorUtils.java
+  s_0442ae8ad97447::t_523124b0f7a767 59,64,66-68,70
+  s_0442ae8ad97447::t_e677f5ab601b74 39,42-56
+src/main/java/org/opensearch/neuralsearch/highlight/batch/utils/HighlightResultApplier.java
+  s_0442ae8ad97447::t_ec1f6f30e42e2a 148-152
+  s_0442ae8ad97447::t_4da7a908d75bea 15
+  s_0442ae8ad97447::t_9ea978d591805b 106-107,109,111-113,115-116,118,122,128-132,134,137-138,141
+src/main/java/org/opensearch/neuralsearch/highlight/utils/HighlightValueUtils.java
+  s_0442ae8ad97447::t_2bebeae12400f1 1-193
+src/test/java/org/opensearch/neuralsearch/highlight/batch/utils/HighlightResultApplierTests.java
+  s_0442ae8ad97447::t_4b39128ec7bcd2 335-354
+  s_0442ae8ad97447::t_807377e483d6cb 287-319
+src/test/java/org/opensearch/neuralsearch/highlight/SemanticHighlighterTests.java
+  s_0442ae8ad97447::t_d72445d8fcda84 613-645
+CHANGELOG.md
+  s_0442ae8ad97447::t_0710529ef53d79 12
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "fbd24ab58269af7dfb8cfb66965b36564d24cbc8",
+  "prompts": {},
+  "sessions": {
+    "s_0442ae8ad97447": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_f772cb97dffeS06rd6Q4ySDxdb",
+        "model": "muse-spark-1.3-contributor-free"
+      },
+      "human_author": "Ethan Zhang <ezhang3333@gmail.com>"
+    }
+  }
+}
