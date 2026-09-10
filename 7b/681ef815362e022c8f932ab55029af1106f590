@@ -1,0 +1,65 @@
+src/main/java/org/opensearch/neuralsearch/highlight/batch/config/HighlightContextBuilder.java
+  s_0442ae8ad97447::t_a05b9cbc635ae2 144-146,159-161
+  s_0442ae8ad97447::t_7962d09351fd27 15
+  s_969707d4a59d94::t_b96e3b33a1764a 158
+src/main/java/org/opensearch/neuralsearch/highlight/batch/utils/HighlightResultApplier.java
+  s_0442ae8ad97447::t_4da7a908d75bea 15
+  s_0442ae8ad97447::t_9ea978d591805b 106-107,109,111,115-116,118,122,129-132,134,137-138,141
+  s_969707d4a59d94::t_b96e3b33a1764a 112-113,128
+  s_0442ae8ad97447::t_ec1f6f30e42e2a 148-152
+src/main/java/org/opensearch/neuralsearch/highlight/utils/HighlightExtractorUtils.java
+  s_0442ae8ad97447::t_523124b0f7a767 59,64,66-68,70
+  s_0442ae8ad97447::t_e677f5ab601b74 39,42-56
+src/test/java/org/opensearch/neuralsearch/highlight/SemanticHighlighterTests.java
+  s_0442ae8ad97447::t_d72445d8fcda84 613-617,619-621,631-636
+  s_969707d4a59d94::t_b96e3b33a1764a 618,626,629
+  s_969707d4a59d94::t_d5712bb487b571 622-625,627-628,630
+src/main/java/org/opensearch/neuralsearch/highlight/utils/HighlightTagApplier.java
+  s_969707d4a59d94::t_a56bdff3c739c2 39-57,59,76,83,116
+  s_969707d4a59d94::t_7b7b63c62ba8e7 58
+CHANGELOG.md
+  s_0442ae8ad97447::t_0710529ef53d79 14
+src/test/java/org/opensearch/neuralsearch/highlight/batch/utils/HighlightResultApplierTests.java
+  s_0442ae8ad97447::t_807377e483d6cb 287,289-319
+  s_969707d4a59d94::t_b96e3b33a1764a 288
+  s_0442ae8ad97447::t_4b39128ec7bcd2 335-340
+src/test/java/org/opensearch/neuralsearch/highlight/utils/HighlightValueUtilsTests.java
+  s_0442ae8ad97447::t_3b3346c75daf4e 1-75
+src/test/java/org/opensearch/neuralsearch/highlight/utils/HighlightExtractorUtilsTests.java
+  s_0442ae8ad97447::t_55dbbe1d5787a1 87-97
+  s_0442ae8ad97447::t_4a9be302c189b4 58,65
+src/main/java/org/opensearch/neuralsearch/highlight/SemanticHighlighter.java
+  s_969707d4a59d94::t_b96e3b33a1764a 85-86,89,106,125
+  s_0442ae8ad97447::t_0deb8002e05737 102-105,107-120,122,126-127,136-138,140
+src/main/java/org/opensearch/neuralsearch/highlight/single/SemanticHighlighterEngine.java
+  s_969707d4a59d94::t_a56bdff3c739c2 152
+  s_969707d4a59d94::t_7b7b63c62ba8e7 147
+src/main/java/org/opensearch/neuralsearch/highlight/utils/HighlightValueUtils.java
+  s_969707d4a59d94::t_b96e3b33a1764a 94-99,101-104,108-111
+  s_969707d4a59d94::t_a56bdff3c739c2 107,112-114,116-117
+  s_0442ae8ad97447::t_2bebeae12400f1 1-93,100,105-106,115,118-138
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "7b681ef815362e022c8f932ab55029af1106f590",
+  "prompts": {},
+  "sessions": {
+    "s_0442ae8ad97447": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_f772cb97dffeS06rd6Q4ySDxdb",
+        "model": "muse-spark-1.3-contributor-free"
+      },
+      "human_author": "Ethan Zhang <ezhang3333@gmail.com>"
+    },
+    "s_969707d4a59d94": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a088e8-9a91-7b03-8fd8-757bc08b4393",
+        "model": "gpt-6-astra"
+      },
+      "human_author": null
+    }
+  }
+}
