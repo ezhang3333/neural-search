@@ -142,8 +142,9 @@ public class HighlightContextBuilder {
      * Reads a string value from a hit's {@code _source} under {@code fieldName}.
      * Falls back to the leaf name when the dotted path is absent, because inner
      * hit sources key by leaf, not the fully qualified name. Lists are joined
-     * with spaces and scalars are coerced via toString, matching the per-element
-     * handling in {@link HighlightValueUtils}. Objects are skipped.
+     * with HighlightValueUtils.ELEMENT_SEPARATOR. Scalars are coerced via
+     * toString, matching the per-element handling in {@link HighlightValueUtils}.
+     * Objects are skipped.
      */
     private static String extractSourceText(SearchHit hit, String fieldName) {
         if (hit == null) return null;

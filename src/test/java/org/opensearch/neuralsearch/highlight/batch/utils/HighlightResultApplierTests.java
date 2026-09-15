@@ -302,6 +302,23 @@ public class HighlightResultApplierTests extends OpenSearchTestCase {
         assertEquals("<em>beta</em>", field.fragments()[0].string());
     }
 
+    public void testAppliesListFieldWhenElementContainsSeparator() {
+        SearchHit hit = hitWithRawJson("{\"body\":[\"alpha\\n\\nbeta\",\"gamma\"]}");
+        applier.applyBatchResults(
+            List.of(hit),
+            List.of(List.of(Map.of("start", 7, "end", 11))),
+            List.of("body"),
+            List.of("<em>"),
+            List.of("</em>"),
+            List.of(0),
+            List.of("default")
+        );
+        HighlightField field = hit.getHighlightFields().get("body");
+        assertNotNull(field);
+        assertEquals(1, field.fragments().length);
+        assertEquals("alpha\n\n<em>beta</em>", field.fragments()[0].string());
+    }
+
     public void testAppliesScalarNumberField() {
         SearchHit hit = hitWithRawJson("{\"count\":42}");
         // Joined "42" is [0,2)
