@@ -1,0 +1,22 @@
+src/main/java/org/opensearch/neuralsearch/highlight/batch/config/HighlightContextBuilder.java
+  s_e30258beec119e::t_8b17c569045853 145-147
+src/test/java/org/opensearch/neuralsearch/highlight/batch/utils/HighlightResultApplierTests.java
+  s_e30258beec119e::t_8b17c569045853 309,319
+  s_e30258beec119e::t_b2afc3ef5941bd 305-308,310-318,320-321
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "e3dce7141f50ed41d7e867c5b6a833300cc7068b",
+  "prompts": {},
+  "sessions": {
+    "s_e30258beec119e": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a0a26c-7101-7d70-9151-e7c3a1134f99",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "Ethan Zhang <ezhang3333@gmail.com>"
+    }
+  }
+}
