@@ -1,0 +1,120 @@
+CHANGELOG.md
+  s_0442ae8ad97447::t_0710529ef53d79 14
+src/main/java/org/opensearch/neuralsearch/highlight/single/SemanticHighlighterEngine.java
+  s_969707d4a59d94::t_7b7b63c62ba8e7 147
+  s_969707d4a59d94::t_a56bdff3c739c2 152
+src/test/java/org/opensearch/neuralsearch/highlight/batch/utils/HighlightResultApplierTests.java
+  s_c6ac3d92bce256::t_f3d57572582cb7 290-297,308-315
+  s_0442ae8ad97447::t_4b39128ec7bcd2 353-358
+  s_e30258beec119e::t_8b17c569045853 320
+  s_0442ae8ad97447::t_807377e483d6cb 287,289,298-304,323-337
+  s_969707d4a59d94::t_b96e3b33a1764a 288
+  s_e30258beec119e::t_b2afc3ef5941bd 305-307,316-319,321-322
+src/test/java/org/opensearch/neuralsearch/highlight/utils/HighlightValueUtilsTests.java
+  s_0442ae8ad97447::t_3b3346c75daf4e 1-42,44-45,47-55,57-58,60-75
+  s_e9030ef2aab24d::t_8e3380c12dfb25 43,46,56,59
+src/test/java/org/opensearch/neuralsearch/highlight/batch/processor/SemanticHighlightingProcessorTests.java
+  s_c6ac3d92bce256::t_a8c2fe3b16abe4 254,257,272
+  s_c6ac3d92bce256::t_5752192b76b3dc 566
+  s_c6ac3d92bce256::t_ee4ff72653b77a 237-242,244-248,250-251,255-256,258-271,274-283,563-565,567
+  s_c6ac3d92bce256::t_a1391754176ab8 568
+  s_c6ac3d92bce256::t_310a53c85a38ca 7,24,30,249,252-253,273
+  s_c6ac3d92bce256::t_e8842567f35411 236
+  s_c6ac3d92bce256::t_9986b450ec1c5a 243
+src/main/java/org/opensearch/neuralsearch/highlight/batch/processor/SemanticHighlightingProcessor.java
+  s_c6ac3d92bce256::t_0f021cc0a1c674 7,9,171,179,188-202,218-221
+src/test/java/org/opensearch/neuralsearch/highlight/SemanticHighlighterTests.java
+  s_969707d4a59d94::t_d5712bb487b571 622-625,627-628,630
+  s_0442ae8ad97447::t_d72445d8fcda84 613-617,619-621,631-636
+  s_969707d4a59d94::t_b96e3b33a1764a 618,626,629
+src/main/java/org/opensearch/neuralsearch/highlight/utils/HighlightExtractorUtils.java
+  s_0442ae8ad97447::t_e677f5ab601b74 39,42-56
+  s_0442ae8ad97447::t_523124b0f7a767 59,64,66-68,70
+src/main/java/org/opensearch/neuralsearch/highlight/utils/HighlightTagApplier.java
+  s_969707d4a59d94::t_a56bdff3c739c2 39-57,59,76,83,116
+  s_969707d4a59d94::t_7b7b63c62ba8e7 58
+src/main/java/org/opensearch/neuralsearch/highlight/SemanticHighlighter.java
+  s_e9030ef2aab24d::t_3a43b3f889d08b 89
+  s_969707d4a59d94::t_b96e3b33a1764a 85-86,106
+  s_e9030ef2aab24d::t_5ffe07497dc8c1 125-126
+  s_0442ae8ad97447::t_0deb8002e05737 102-105,107-120,122,127,136-138,140
+src/test/java/org/opensearch/neuralsearch/highlight/batch/config/HighlightContextBuilderTests.java
+  s_c6ac3d92bce256::t_14421719304191 371,384,388,407,410
+  s_c6ac3d92bce256::t_a5eb0a5735048e 372
+  s_c6ac3d92bce256::t_86a88c2f039dd2 385-387,408-409
+src/main/java/org/opensearch/neuralsearch/highlight/batch/config/HighlightContextBuilder.java
+  s_c6ac3d92bce256::t_ddbb9be3f71730 63,84-86,112-114,145-146,148,153,155,189,196-214
+  s_c6ac3d92bce256::t_a5eb0a5735048e 143
+  s_0442ae8ad97447::t_7962d09351fd27 15
+src/main/java/org/opensearch/neuralsearch/highlight/batch/utils/HighlightResultApplier.java
+  s_0442ae8ad97447::t_9ea978d591805b 150-151,153,155,159-160,166,173-176,178,247-251
+  s_e9030ef2aab24d::t_c0169b5f1683ea 156-157,162
+  s_969707d4a59d94::t_b96e3b33a1764a 172
+  s_c6ac3d92bce256::t_55964808b74995 55-97,181-243
+  s_c6ac3d92bce256::t_46e3cffd3b6507 244
+  s_0442ae8ad97447::t_4da7a908d75bea 16
+  s_0442ae8ad97447::t_ec1f6f30e42e2a 258-262
+src/test/java/org/opensearch/neuralsearch/highlight/utils/HighlightExtractorUtilsTests.java
+  s_0442ae8ad97447::t_4a9be302c189b4 58,65
+  s_0442ae8ad97447::t_55dbbe1d5787a1 87-95,97
+  s_e9030ef2aab24d::t_4e843afd26a8a9 96
+src/main/java/org/opensearch/neuralsearch/highlight/batch/HighlightContext.java
+  s_c6ac3d92bce256::t_ddbb9be3f71730 31-32
+src/main/java/org/opensearch/neuralsearch/highlight/utils/HighlightValueUtils.java
+  s_e9030ef2aab24d::t_0b89b572721048 75-77
+  s_e9030ef2aab24d::t_2bd1fa0b08aff9 120
+  s_e9030ef2aab24d::t_c57a03169fb140 27-29
+  s_e9030ef2aab24d::t_8de82df18ca637 66,70
+  s_0442ae8ad97447::t_2bebeae12400f1 1-26,30-65,67-69,71-74,78-95,102,107-108,117,123,132-140
+  s_969707d4a59d94::t_b96e3b33a1764a 96-98,100-101,103-105,110-113
+  s_e9030ef2aab24d::t_92b66080d3fe56 99,106,121-122,124-131
+  s_969707d4a59d94::t_a56bdff3c739c2 109,114-116,118-119
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "8ce9fb7e63ff2f1eec25ba4e738f8e849cb5dc16",
+  "prompts": {},
+  "sessions": {
+    "s_0442ae8ad97447": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_f772cb97dffeS06rd6Q4ySDxdb",
+        "model": "muse-spark-1.3-contributor-free"
+      },
+      "human_author": null
+    },
+    "s_969707d4a59d94": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a088e8-9a91-7b03-8fd8-757bc08b4393",
+        "model": "gpt-6-astra"
+      },
+      "human_author": null
+    },
+    "s_c6ac3d92bce256": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a0a745-4b9f-7403-99e7-32186f0c7ea6",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "Ethan Zhang <ezhang3333@gmail.com>"
+    },
+    "s_e30258beec119e": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a0a26c-7101-7d70-9151-e7c3a1134f99",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "Ethan Zhang <ezhang3333@gmail.com>"
+    },
+    "s_e9030ef2aab24d": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_f5e00e3c8ffe14jzKek82IvOMh",
+        "model": "muse-spark-1.3-contributor-free"
+      },
+      "human_author": null
+    }
+  }
+}
